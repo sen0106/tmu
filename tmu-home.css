@@ -1,0 +1,273 @@
+/*内容1------------------------------------------------*/   
+.top-wrapper{
+    /*height: 700px;*/
+    width: 100%;
+    background-image: url(http://art11111.com/image/wallpaper/HD/20.jpg);
+    background-size: cover;
+    color: white;
+    opacity: 0.8;
+}
+    
+.top-wrapper h1{
+    font-size: 40px;
+    opacity: 1.0;
+    padding-bottom: 30px;
+    color: white;
+}
+    
+.top-wrapper h2{
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+    
+.top-container{
+    /*height: 800px;*/
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 150px 50px 100px 50px;
+    margin: 0 auto;
+}
+/*-------------------------------------------------------*/       
+    
+/*内容1(ボタン)--------------------------------------------*/   
+.square_btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.square_btn:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.btn-wrapper{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+    
+.btn-wrapper p{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+    
+.fa{
+    margin-right: 5px;
+}
+
+.facebook{
+    margin-bottom: 20px;
+}
+    
+/*-----------------------------------------------------*/ 
+
+/*検索------------------------------------*/  
+
+.search-wrapper{
+    width: 100%;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.search-container{
+    width: 50%;
+    padding: 20px 15px;
+    margin: 0px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea , input[type=email], input[type=tel]{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+    
+select{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/*-----------------------------------------------------*/ 
+    
+/*内容2（事業概要）------------------------------------*/  
+.second-container{
+    /*height: 800px;*/
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}    
+
+.second-wrapper{
+    /*height: 500px;*/
+    width: 100%;
+    padding-bottom: 0px;
+    text-align: center;
+}    
+
+.work{
+    float: left;
+    width: 33%;
+}
+
+.work-icon{
+    position: relative;
+}
+
+.work-icon p{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    color: white;
+}
+    
+.txt-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.clear{
+    clear: left;
+}
+
+    
+/*-----------------------------------------------------*/   
+    
+/*内容3（Vision and Mission）---------------------------*/
+    
+.third-wrapper{
+    /*height: 700px;*/
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+    
+.third-container{
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 40px;
+}
+    
+.third-container .heading h2{
+    letter-spacing: 3px;
+    text-align: center;
+}
+    
+.mission h2{
+    font-style: oblique;
+    color: yellow;
+    text-shadow: 5px 5px 2px black;
+}
+        
+.vision h2{
+    color: yellow;
+    font-style: oblique;
+    text-shadow: 5px 5px 2px black;
+}
+    
+    
+/*-----------------------------------------------------*/ 
+   
+/*内容4--------------------------------------------------*/
+.fourth-wrapper{
+    /*height: 1000px;*/
+    width: 100%;
+}   
+    
+.fourth-container{
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 40px;
+}
+    
+.fourth-container .heading{
+    text-align: center;
+}
+    
+.fourth-container li{
+    font-size: 20px;
+}
+    
+.unq_btn2 a{
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.unq_btn2 .fa-stack-2x {
+    color: black;
+    font-size:70px;
+}
+.unq_btn2 .fa-stack-1x{
+    display: inline-block;  
+    position: relative;
+    font-size: 20px;
+    top: 12px;
+    left:5px;
+    transition: .4s;
+}
+.unq_btn2 .fa-twitter {
+    color: #74c1f8;
+}
+.unq_btn2 .fa-facebook {
+    color: #668ad8;
+}
+.unq_btn2 .fa-get-pocket {
+    color: #f79393;
+}
+.unq_btn2 .fa-rss {
+    color: #acde71;
+}
+.unq_btn2 .fa-google-plus{
+    color: #ed7168;
+}
+.unq_btn2 a:hover .fa-stack-1x {
+    -ms-transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.clear2{
+    clear: right;
+}
+    
+/*-----------------------------------------------------*/

@@ -1,0 +1,106 @@
+
+/*共通-----------------------------------------------------*/
+*{
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+/*--------------------------------------------------------*/
+/*ヘッダー-------------------------------------------------*/ 
+    
+header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position:fixed;
+    top:0;
+    z-index:10;
+    float: left;
+}    
+
+.logo {
+    height: 60px;
+    padding-top: 10px;
+}
+    
+.header-container{
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+    
+.header-left{
+    float: left;
+}
+    
+.header-right{
+    float: right;
+    background-color: darkgray;
+}
+    
+.header-right:hover{
+    background-color: grey;
+}
+
+.header-right a{
+    color: white;
+    padding: 0px 25px;
+    line-height: 80px;
+    display: block;
+    transition: all 0.5s;
+}
+    
+/*--------------------------------------------------------*/   
+/*フッター-------------------------------------------------*/
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+    
+.footer-container{
+    /*width: 1170px;*/
+    width: 100%;
+    padding: 40px;
+}
+
+.footer-left ul{
+    list-style: none;
+    width: 70%;
+}
+    
+.footer-left li{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+    
+.footer-left a{
+    color: white;
+    display: block;
+}
+    
+.footer-left a:hover{
+    background-color: grey;
+}
+    
+/*-----------------------------------------------------*/   
+    
+/*フッター下---------------------------------------------*/
+.bottom{
+    text-align: center;
+}    
+    
+.bottom{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+/*-----------------------------------------------------*/  
